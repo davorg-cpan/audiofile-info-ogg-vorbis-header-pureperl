@@ -18,8 +18,6 @@ sub ACTION_install {
 
   my $pkg = $self->notes('package');
 
-  warn "Package is [$pkg]";
-
   my $path = $INC{'AudioFile/Info.pm'};
 
   $path =~ s/Info.pm$/plugins.yaml/;
@@ -37,11 +35,11 @@ sub ACTION_install {
   my ($mp3, $ogg);
 
   for (qw(read write)) {
-    ++$mp3 if $config->{$pkg}{"${_}_mp3"};
+    $mp3 += 50 if $config->{$pkg}{"${_}_mp3"};
   }
 
   for (qw(read write)) {
-    ++$ogg if $config->{$pkg}{"${_}_ogg"};
+    $ogg +=50 if $config->{$pkg}{"${_}_ogg"};
   }
 
   # prefer non-perl implementations

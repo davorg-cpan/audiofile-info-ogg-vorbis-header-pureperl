@@ -1,10 +1,17 @@
-Revision history for Perl extension AudioFile::Info.
+2003-09-27 20:47  dave
 
-0.01  Sun Jul  6 17:23:08 2003
-	- original version; created by h2xs 1.22 with options
-		-b5.6.0 -A -X -n AudioFile::Info
+	* lib/AudioFile/Info/Ogg/Vorbis/Header/PurePerl.pm (1.2): Doc
+	fixes.
+	* Build (1.2): Shouldn't have been in CVS.
+	* Build (1.1.1.1), Build.PL (1.1.1.1), Changes (1.1.1.1), MANIFEST
+	(1.1.1.1), META.yml (1.1.1.1), Makefile.PL (1.1.1.1), README
+	(1.1.1.1), lib/AudioFile/Info/Build.pm (1.1.1.1),
+	lib/AudioFile/Info/Ogg/Vorbis/Header/PurePerl.pm (1.1.1.1), t/1.t
+	(1.1.1.1), t/test.ogg (1.1.1.1): AudioFile::Info plugin for
+	Ogg:Vorbis::Header::PurePerl
+	* Build (1.1), Build.PL (1.1), Changes (1.1), MANIFEST (1.1),
+	META.yml (1.1), Makefile.PL (1.1), README (1.1),
+	lib/AudioFile/Info/Build.pm (1.1),
+	lib/AudioFile/Info/Ogg/Vorbis/Header/PurePerl.pm (1.1), t/1.t
+	(1.1), t/test.ogg (1.1): Initial revision
 
-1.02  Sun Aug 10 18:58:00 2003
-        - Removed tarball from MANIFEST (doh!)
-        - Put under CVS
-        - Added RCS tags

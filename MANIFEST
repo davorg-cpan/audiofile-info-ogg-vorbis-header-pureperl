@@ -7,4 +7,6 @@ README
 lib/AudioFile/Info/Build.pm
 lib/AudioFile/Info/Ogg/Vorbis/Header/PurePerl.pm
 t/1.t
+t/2_write.t
+t/3_pod.t
 t/test.ogg

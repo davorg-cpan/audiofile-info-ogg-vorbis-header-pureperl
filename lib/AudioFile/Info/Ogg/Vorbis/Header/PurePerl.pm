@@ -1,3 +1,21 @@
+#
+# $Id$
+#
+
+=head1 NAME
+
+AudioFile::Info::Ogg::Vorbis::Header::PurePerl - Perl extension to get
+info from Ogg Vorbis files.
+
+=head1 DESCRIPTION
+
+Extracts data from an Ogg Vorbis file using the CPAN module
+Ogg::Vorbis::Header::PurePerl.
+
+See L<AudioFile::Info> for more details.
+
+=cut 
+
 package AudioFile::Info::Ogg::Vorbis::Header::PurePerl;
 
 use 5.006;
@@ -39,18 +57,6 @@ sub AUTOLOAD {
 
 1;
 __END__
-
-=head1 NAME
-
-AudioFile::Info::Ogg::Vorbis::Header::PurePerl - Perl extension to get
-info from Ogg Vorbis files.
-
-=head1 DESCRIPTION
-
-Extracts data from an Ogg Vorbis file using the CPAN module
-Ogg::Vorbis::Header::PurePerl.
-
-See L<AudioFile::Info> for more details.
 
 =head1 AUTHOR
 
