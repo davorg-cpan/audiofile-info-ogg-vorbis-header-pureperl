@@ -1,0 +1,10 @@
+Build.PL
+Makefile.PL
+Changes
+MANIFEST
+META.yml
+README
+lib/AudioFile/Info/Build.pm
+lib/AudioFile/Info/Ogg/Vorbis/Header/PurePerl.pm
+t/1.t
+t/test.ogg
