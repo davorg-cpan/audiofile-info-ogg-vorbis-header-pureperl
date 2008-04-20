@@ -21,6 +21,6 @@ ok(ref $song eq 'AudioFile::Info::Ogg::Vorbis::Header::PurePerl');
 ok($song->title eq 'test');
 ok($song->artist eq 'davorg');
 ok($song->album eq 'none');
-ok($song->track eq '0');
+ok($song->track eq '00');
 ok($song->year eq '2003');
 ok($song->genre eq 'nonsense');
