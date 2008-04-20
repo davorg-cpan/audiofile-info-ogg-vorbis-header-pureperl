@@ -5,6 +5,8 @@ use warnings;
 
 use base 'Module::Build';
 
+our $VERSION = sprintf "%d", '$Revision$ ' =~ /(\d+)/;
+
 use YAML qw(LoadFile DumpFile);
 
 sub ACTION_install {
