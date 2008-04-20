@@ -25,14 +25,14 @@ use Carp;
 
 use Ogg::Vorbis::Header::PurePerl;
 
-our $VERSION = sprintf "%d.%02d", '$Revision$ ' =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf "%d", '$Revision$ ' =~ /(\d+)/;
 
-my %data = (artist => 'artist',
-            title  => 'title',
-            album  => 'album',
-            track  => 'tracknumber',
-            year   => 'date',
-            genre  => 'genre');
+my %data = (artist => 'ARTIST',
+            title  => 'TITLE',
+            album  => 'ALBUM',
+            track  => 'TRACKNUMBER',
+            year   => 'DATE',
+            genre  => 'GENRE');
 
 sub new {
   my $class = shift;
