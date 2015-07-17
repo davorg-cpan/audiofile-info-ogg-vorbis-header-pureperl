@@ -25,8 +25,6 @@ use Carp;
 
 use Ogg::Vorbis::Header::PurePerl;
 
-our $VERSION = sprintf "%d", '$Revision$ ' =~ /(\d+)/;
-
 my %data = (artist => 'ARTIST',
             title  => 'TITLE',
             album  => 'ALBUM',
