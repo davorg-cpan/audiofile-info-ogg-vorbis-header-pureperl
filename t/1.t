@@ -9,7 +9,7 @@ use warnings;
 # change 'tests => 1' to 'tests => last_test_to_print';
 
 use Test;
-BEGIN { plan tests => 8 };
+BEGIN { plan tests => 8 }
 use AudioFile::Info;
 ok(1);
 
