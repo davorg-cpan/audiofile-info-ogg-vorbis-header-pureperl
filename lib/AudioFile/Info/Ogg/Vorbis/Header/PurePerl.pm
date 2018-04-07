@@ -14,7 +14,7 @@ Ogg::Vorbis::Header::PurePerl.
 
 See L<AudioFile::Info> for more details.
 
-=cut 
+=cut
 
 package AudioFile::Info::Ogg::Vorbis::Header::PurePerl;
 
@@ -72,6 +72,6 @@ Dave Cross, E<lt>dave@dave.org.ukE<gt>
 Copyright 2003 by Dave Cross
 
 This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself. 
+it under the same terms as Perl itself.
 
 =cut

@@ -18,7 +18,7 @@ ok(1);
 # Insert your test code below, the Test::More module is use()ed here so read
 # its man page ( perldoc Test::More ) for help writing this test script.
 
-my $song = AudioFile::Info->new('t/test.ogg', 
+my $song = AudioFile::Info->new('t/test.ogg',
                    { ogg => 'AudioFile::Info::Ogg::Vorbis::Header::PurePerl' });
 ok(ref $song eq 'AudioFile::Info::Ogg::Vorbis::Header::PurePerl');
 ok($song->title eq 'test');
