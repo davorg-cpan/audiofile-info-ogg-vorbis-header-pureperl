@@ -1,3 +1,5 @@
+use compat::perl7;
+
 package AudioFile::Info::Build;
 
 use strict;
