@@ -67,7 +67,7 @@ by AudioFile::Info::new.
 
 =head1 AUTHOR
 
-Dave Cross, E<lt>dave@dave.org.ukE<gt>
+Dave Cross, E<lt>dave@perlhacks.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
