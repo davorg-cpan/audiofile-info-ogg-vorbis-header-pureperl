@@ -1,7 +1,3 @@
-#
-# $Id$
-#
-
 =head1 NAME
 
 AudioFile::Info::Ogg::Vorbis::Header::PurePerl - Perl extension to get
@@ -25,7 +21,7 @@ use Carp;
 
 use Ogg::Vorbis::Header::PurePerl;
 
-our $VERSION = '1.5.1';
+our $VERSION = '1.5.2';
 
 my %data = (artist => 'ARTIST',
             title  => 'TITLE',
