@@ -45,7 +45,7 @@ sub ACTION_install {
   # prefer non-perl implementations
   unless ($config->{$pkg}{pure_perl}) {
     for (@types) {
-      $score{$_} += 10 if $score{$_};
+      $score->{$_} += 10 if $score->{$_};
     }
   }
 
