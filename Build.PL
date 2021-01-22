@@ -25,6 +25,9 @@ my $b = AudioFile::Info::Build->new(
           url  => 'git://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl.git',
           web  => 'https://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl',
        },
+        bugtracker => {
+          web  => 'https://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl/issues',
+       },
       },
     },
 );
