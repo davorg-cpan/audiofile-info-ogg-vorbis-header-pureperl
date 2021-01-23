@@ -10,6 +10,8 @@ my $b = AudioFile::Info::Build->new(
         perl            => '5.6.0',
         AudioFile::Info => 0,
         Ogg::Vorbis::Header::PurePerl => 0,
+    },
+    configure_requires => {
         YAML => 0,
     },
     build_requires => {

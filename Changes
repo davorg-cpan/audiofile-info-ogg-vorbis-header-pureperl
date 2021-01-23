@@ -1,4 +1,8 @@
-2021-02-22  1.5.4 DAVECROSS
+2021-01-23  1.5.5 DAVECROSS
+
+	* Add YAML to configure_requires
+
+2021-01-22  1.5.4 DAVECROSS
 
         * Added bugtracker details
         * Added Github CI
