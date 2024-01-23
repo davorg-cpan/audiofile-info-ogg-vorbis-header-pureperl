@@ -24,11 +24,11 @@ my $b = AudioFile::Info::Build->new(
       resources => {
         repository => {
           type => 'git',
-          url  => 'git://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl.git',
-          web  => 'https://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl',
+          url  => 'git://github.com/davorg-cpan/audiofile-info-ogg-vorbis-header-pureperl.git',
+          web  => 'https://github.com/davorg-cpan/audiofile-info-ogg-vorbis-header-pureperl',
        },
         bugtracker => {
-          web  => 'https://github.com/davorg/audiofile-info-ogg-vorbis-header-pureperl/issues',
+          web  => 'https://github.com/davorg-cpan/audiofile-info-ogg-vorbis-header-pureperl/issues',
        },
       },
     },
